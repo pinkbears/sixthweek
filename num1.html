@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+		table td{
+			border:#000000 1px solid;
+			text-align: center;
+		}
+	</style>
+	<body>
+		<hr>
+		<p>第一题</p>
+	</body>
+	<script>
+		document.write("<table>")
+		let i,j;
+		for(i=1;i<=9;i++){
+			document.write("<tr>");
+			for(j=1;j<=i;j++){
+				sum=i*j;
+				document.write("<td>",i,"*",j,"=",sum,"  ");
+			}
+		}
+	</script>
+</html>
